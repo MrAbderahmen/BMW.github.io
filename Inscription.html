@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listes de Produits</title>
+</head>
+<body>
+    <fieldset style="border: 1px solid #000;">
+        <legend><h1>Formulaire d'inscription</h1></legend>
+        <form>
+            <div>
+                <label for="txt">Nom</label>
+                <input type="text" name="text" id="txt" placeholder="Saisir votre Nom">
+            </div>
+            <div>
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Saisir votre prenom">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Saisir votre email">
+            </div>
+            <div>
+                <label form="radio">Sexe</label>
+                <input type="radio" name="x" id="rad">
+                <label form="radio">Masculin</label>
+                <input type="radio" name="x" id="rad">
+                <label form="radio">féminin</label>
+    
+            </div>
+            <div>
+                <label for="photo">Photo</label>
+                <input type="file" id="photo" style="display: none;">
+                <label for="photo">Choisissez un fichier</label>
+                <button onclick="document.getElementById('photo').click();">Parcourir</button>
+            </div>
+            <div>
+                <input type="submit" value="envoyer">
+                <input type="reset" value="annuler">
+            </div>
+            
+        </form>
+    </fieldset>
+    <button><a href="Accueil.html">Retourner a l'acceuil</a></button>
+
+</body>
+</html>

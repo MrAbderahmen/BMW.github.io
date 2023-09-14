@@ -1,0 +1,23 @@
+button{
+    background-color: white;
+}
+button :hover{
+    color: black;
+    background-color: yellow;
+}
+.return::after{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    text-decoration: underline red;
+}
+/* Apply the animation to an element */
+.animated-element {
+    width: 100px;
+    height: 100px;
+    animation: body 2s infinite; /* Apply the 'body' animation to the element */
+}
